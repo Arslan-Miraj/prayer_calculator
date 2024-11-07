@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "388076637c16bb6c7baf4ff0fd698385",
     "packages": [
+        {
+            "name": "arslan/contactform",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Arslan-Miraj/laravel_pkg_contactform.git",
+                "reference": "d7fa80985a76837a4b71087e02853210df6235f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Arslan-Miraj/laravel_pkg_contactform/zipball/d7fa80985a76837a4b71087e02853210df6235f0",
+                "reference": "d7fa80985a76837a4b71087e02853210df6235f0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Arslan\\Contactform\\ContactformServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arslan\\Contactform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "arslan"
+                }
+            ],
+            "description": "laravel contact pkg",
+            "support": {
+                "issues": "https://github.com/Arslan-Miraj/laravel_pkg_contactform/issues",
+                "source": "https://github.com/Arslan-Miraj/laravel_pkg_contactform/tree/main"
+            },
+            "time": "2024-11-03T17:18:54+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.12.1",
@@ -7748,7 +7792,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "arslan/contactform": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
